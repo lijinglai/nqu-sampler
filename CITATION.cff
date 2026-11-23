@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "nqu-sampler"
+version: 0.1.0
+license: MIT
+authors:
+  - family-names: Wang
+    given-names: Hongqiao
+  - family-names: Jiang
+    given-names: Jiahua
+  - family-names: Liu
+    given-names: Jing
+  - family-names: Li
+    given-names: Jinglai
+preferred-citation:
+  type: article
+  title: "Gradient-free MCMC exploiting low-dimensional Gaussian and non-Gaussian posterior structure"
+  authors:
+    - family-names: Wang
+      given-names: Hongqiao
+    - family-names: Jiang
+      given-names: Jiahua
+    - family-names: Liu
+      given-names: Jing
+    - family-names: Li
+      given-names: Jinglai
+  year: 2026

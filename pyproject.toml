@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nqu-sampler"
+version = "0.1.0"
+description = "Gradient-free MCMC for Bayesian inverse problems that learns non-Gaussian, approximately quadratic and uninformative directions"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Hongqiao Wang"},
+    {name = "Jiahua Jiang"},
+    {name = "Jing Liu"},
+    {name = "Jinglai Li"},
+]
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.22"]
+keywords = ["MCMC", "Bayesian inverse problems", "gradient-free sampling", "dimension reduction", "adaptive MCMC"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
