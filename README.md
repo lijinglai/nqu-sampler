@@ -19,10 +19,12 @@ non-Gaussian posterior structure* (H. Wang, J. Jiang, J. Liu and J. Li). It depe
 ## Installation
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/lijinglai/nqu-sampler.git
 cd nqu-sampler
 pip install .
 ```
+
+or directly `pip install git+https://github.com/lijinglai/nqu-sampler.git`.
 
 Requirements: Python 3.9 or later and NumPy 1.22 or later. To run the tests with pytest, install `pip install .[test]`;
 the tests also run without pytest (see [Tests](#tests)).

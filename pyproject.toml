@@ -28,5 +28,8 @@ classifiers = [
 [project.optional-dependencies]
 test = ["pytest"]
 
+[project.urls]
+Repository = "https://github.com/lijinglai/nqu-sampler"
+
 [tool.setuptools.packages.find]
 where = ["src"]
